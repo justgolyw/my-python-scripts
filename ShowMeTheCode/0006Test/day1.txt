@@ -1,0 +1,16 @@
+def count_words(path):
+    _list = []
+    if os.path.exists(path) and os.path.isdir(path):
+        _list = os.listdir(path)
+    # print(_list)
+
+    for diary in _list:
+        diary_path = os.path.join(path,diary)
+        # print(diary_path)
+        with open(diary_path,'r') as f:
+            text = f.read().lower()
+            # 正则表达式的用法？？
+            pattern = '[a-z0-9\']+'
+            words = re.findall(pattern,text)
+            word_list = Counter(words)
+        print(word_list.most_common()[0])
