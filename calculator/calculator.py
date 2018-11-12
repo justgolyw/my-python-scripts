@@ -87,7 +87,8 @@ class Example(QMainWindow):
         # 设置窗口标题
         self.setWindowTitle('Calculator')
         # 设置窗口图标
-        self.setWindowIcon(QtGui.QIcon('calculator.jpg'))
+        img_path = r"C:\Users\yangwei.li\Desktop\my python scripts\calculator\calculator.jpg"
+        self.setWindowIcon(QtGui.QIcon(img_path))
         self.setGeometry(200, 200, 100, 300)
         self.show()
 
