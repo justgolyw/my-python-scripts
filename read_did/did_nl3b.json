@@ -1,0 +1,6 @@
+{
+  "name":"did_nl3b.json",
+  "comment":["字节数", "DID含义", "ASCII/无符号(默认ASCII)", "预期值"],
+  "F187": ["10", "GeelySparePartNumber", "True", "6600003579"],
+  "F18A": ["6", "systemSupplierIdentifier", "True", "512091"]
+}
