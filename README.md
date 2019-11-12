@@ -1,3 +1,1 @@
-这是一个整理python 脚本的文件夹
-
-ShowMeTheCode文件夹里面保存的是ShowMeTheCode习题集的代码
+此文档整理了自己平时写的一些小脚本

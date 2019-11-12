@@ -3,5 +3,7 @@
 *.xml
 *.xls
 *.spec
-dist
+*.venv
+*.dist
+Interview/venv/
 build
